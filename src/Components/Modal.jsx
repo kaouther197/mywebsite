@@ -15,7 +15,10 @@ function Modal({ setOpenModal }) {
             </div>
             <div className="footer">
 
-                <button>Download File</button>
+                <button onClick={(e)=>{
+                    e.preventDefault();
+                    window.location.href = 'https://www.mediafire.com/file/qvj3ymos826fkwx/tp1_brahim_kedjar_group1.rar/file';
+                }}>Download File</button>
             </div>
         </div>
     );
