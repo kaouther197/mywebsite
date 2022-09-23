@@ -184,12 +184,12 @@
 }
 
 .collections-container .cl-row.row1 .nft1 {
-  background: url(../props/tp1.png);
+  background: url(../props/table.png);
   background-position: center;
   background-size: cover;
   position: static;
 }
-.collections-container .cl-row.row1 .nft2 {
+/*.collections-container .cl-row.row1 .nft2 {
   background: url(../props/tp2.png);
   background-position: center;
   background-size: cover;
@@ -206,7 +206,7 @@
   background-position: center;
   background-size: cover;
   position: static;
-}
+}*/
 
 @media (max-width: 700px) {
   .collection {
