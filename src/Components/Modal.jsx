@@ -1,6 +1,6 @@
 import React from "react";
 import "./Modal.css";
-import Logo from '../props/TP11.png'
+import Logo from '../props/table.png'
 function Modal({ setOpenModal }) {
     return (
         <div className="modalContainer">
