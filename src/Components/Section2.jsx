@@ -29,7 +29,7 @@ function Details() {
           </h1>
           <h2>
             Étudiant en master Ingénierie des Données et Technologie Web à
-            l'Université Ferhat Abbas, j'ai de l'expérience avec un large éventail de
+            l'Université Ferhat Abbas, j'ai de lexpérience avec un large éventail de
             langages de programmation et de technologies, j'ai excellé dans mes
             études grâce à de grandes compétences en résolution de problèmes, en
             travail d'équipe et en leadership.
@@ -49,28 +49,37 @@ function Details() {
             ↪Connaissance des API et des webservices.<br />
             ↪Problem-Solving<br />
             ↪Project Management Tools<br />
-            ↪Strong Communication
-            ↪HTML - CSS3 - JAVASCRIPT - PHP - SQL_MySql - JAVAbr />
+            ↪Strong Communication<br />
+             ↪HTML - CSS3 - JAVASCRIPT - PHP - SQL_MySql - JAVAbr />
             ↪C++ - C# - .net - LARAVEL - React JS - Angular - FLUTTER - ANDROIDbr />
 
           </h2>
         </div>
       </div>
-
+      <div style={{ color: "white",textAlign:"center",marginLeft:"40%",marginTop:"50px",marginBottom:"-50px" }}><h1>Some Of My Work : </h1></div><br />
+      <h1 style={{textAlign:"center",marginLeft:"50%",marginTop:"50px",marginBottom:"-50px" }}>  👇</h1>
       <div className="progress">
-        <div className="container" style={{ "--x": 1 }}>
+        <div className="container" style={{ "--x": 1 }} onClick={(e) => {
+          e.preventDefault();
+          window.location.href = 'https://brahim-kedjar-meteo.vercel.app/';
+        }}>
           <h2>1</h2>
-          <span>Lorem</span>
+          <span>Weather</span>
         </div>
 
-        <div className="container" style={{ "--x": 2 }}>
+        <div className="container" style={{ "--x": 2 }} onClick={(e) => {
+          e.preventDefault();
+          window.location.href = 'https://brahim-kedjar-messenger.vercel.app/';
+        }}>
           <h2>2</h2>
-          <span>Ipsum</span>
+          <span>Messenger</span>
         </div>
-
-        <div className="container" style={{ "--x": 3 }}>
+        <div className="container" style={{ "--x": 3 }} onClick={(e) => {
+          e.preventDefault();
+          window.location.href = 'https://homwork.vercel.app/';
+        }}>
           <h2>3</h2>
-          <span>Dolor</span>
+          <span>Portfolio</span>
         </div>
       </div>
     </div>
