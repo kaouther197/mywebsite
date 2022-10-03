@@ -50,8 +50,8 @@ function Details() {
             ↪Problem-Solving<br />
             ↪Project Management Tools<br />
             ↪Strong Communication
-            ↪HTML - CSS3 - JAVASCRIPT - PHP - SQL_MySql - JAVA
-            ↪C++ - C# - .net - LARAVEL - React JS - Angular - FLUTTER - ANDROID
+            ↪HTML - CSS3 - JAVASCRIPT - PHP - SQL_MySql - JAVAbr />
+            ↪C++ - C# - .net - LARAVEL - React JS - Angular - FLUTTER - ANDROIDbr />
 
           </h2>
         </div>
