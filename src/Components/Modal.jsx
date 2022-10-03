@@ -16,8 +16,15 @@ function Modal({ setOpenModal }) {
             <div className="footer">
 
                 <button onClick={(e)=>{
-                    e.preventDefault();
+                    var result = prompt("Please enter password to download your tp:", " ");
+            if (result === "brahim1424") {
+              e.preventDefault();
                     window.location.href = 'https://www.mediafire.com/file/qvj3ymos826fkwx/tp1_brahim_kedjar_group1.rar/file';
+
+            } else {
+              alert("incorrect");
+            }
+                   
                 }}>Download File</button>
             </div>
         </div>
