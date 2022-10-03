@@ -35,7 +35,7 @@ function Contact() {
           <div className="tooltip">whatsapp</div>
         </div>
 
-        <div className="icon" style={{ "--c": "#1d3fff" }} onClick={() => window.open("https://web.facebook.com/profile.php?id=100078014927532", "_blank")}>
+        <div className="icon" style={{ "--c": "#1d3fff" }} onClick={() => window.open("https://web.facebook.com/profile.php?id=100085923417471", "_blank")}>
           <BsFacebook className="social-icons" />
           <div className="tooltip" >facebook</div>
         </div>
