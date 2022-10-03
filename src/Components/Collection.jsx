@@ -15,13 +15,10 @@ function Collection() {
       <div className="collections-container">
         <div className="cl-row row1">
           <div className="nft1" onClick={() => {
-            var result = prompt("Please enter password to show your tp:", " ");
-            if (result === "brahim1424") {
+          
               setModalOpen(true);
 
-            } else {
-              alert("incorrect");
-            }
+           
             
           }}></div>
           <div className="nft2" onClick={() => {
